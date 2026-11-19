@@ -2,9 +2,20 @@
 
 ## Just Click to add a PWA application
 
-# PWA_Addtohome
 [![Addtohome](https://forthebadge.com/images/badges/built-with-love.svg)](https://pwa.notredame.xhy.im)
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://pwa.notredame.xhy.im)
+
+## Local preview
+
+```bash
+git clone https://github.com/ioslide/pwa-addtohome.git
+cd pwa-addtohome
+python3 -m http.server 8000 --bind 127.0.0.1
+```
+
+Open <http://localhost:8000/> in your browser. Serve the repository root because
+scripts and service worker cache entries use root-relative paths. Service workers
+require HTTPS when deployed; localhost can be used for local development.
 
 ## Browsers support
 
